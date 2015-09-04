@@ -3,3 +3,17 @@ main: LWT\LWTAuth\LWTAuth
 version: 1.0.0
 api: [1.12.0]
 author: LiveWire tech
+commands:
+  login:
+    description: "Authenticates a user."
+    usage: "/login {password}"
+    aliases: [l]
+    default: true
+  register:
+    description: "Registers a user."
+    usage: "/register {email} {password}"
+    default: true
+  logout:
+    description: "Logout."
+    usage: "/logout"
+    default: true
