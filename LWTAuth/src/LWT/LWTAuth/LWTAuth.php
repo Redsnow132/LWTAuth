@@ -1,9 +1,5 @@
 <?php
 
-<?php
-
-
-
 namespace LWTAuth;
 
 use pocketmine\plugin\PluginBase;
@@ -782,7 +778,4 @@ class LWTAuth extends PluginBase {
     }
     
 }
-?>
-
-
 ?>
