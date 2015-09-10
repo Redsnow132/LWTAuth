@@ -115,6 +115,7 @@ class LWTAuth extends PluginBase {
     	$message = str_replace($symbol."d", TextFormat::LIGHT_PURPLE, $message);
     	$message = str_replace($symbol."e", TextFormat::YELLOW, $message);
     	$message = str_replace($symbol."f", TextFormat::WHITE, $message);
+    	$message = str_replace($symbol."g", TextFormat::PINK, $message);
     
     	$message = str_replace($symbol."k", TextFormat::OBFUSCATED, $message);
     	$message = str_replace($symbol."l", TextFormat::BOLD, $message);
